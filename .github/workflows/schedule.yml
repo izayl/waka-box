@@ -1,11 +1,11 @@
 name: Update gist with WakaTime stats
 on:
-   push:
-     branches: master
-   gollum:
-   workflow_dispatch:
-   schedule:
-       - cron: '30 2 * * *'
+  push:
+    branches: master
+  gollum:
+  workflow_dispatch:
+  schedule:
+      - cron: '30 2 * * *'
 
 jobs:
   update-gist:
